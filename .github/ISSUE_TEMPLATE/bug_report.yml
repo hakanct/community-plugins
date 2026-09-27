@@ -130,6 +130,7 @@ body:
         - mimir
         - mini-docker
         - misr-quran-radio
+        - mx-control
         - nan-usage
         - network-control
         - network-toolkit
@@ -226,6 +227,7 @@ body:
         - vial_keymap
         - vidi
         - vietnamese-lunar-calendar
+        - vikunja
         - vm-manager
         - voxtype
         - vpn-manager

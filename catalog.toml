@@ -151,8 +151,8 @@ tags = ["nixos", "utility"]
 [[plugin]]
 id = "nightwatch75/todo"
 name = "To Do"
-version = "1.2.0"
-updated_at = 1790099908
+version = "1.2.1"
+updated_at = 1790466807
 added_at = 1784158920
 author = "nightwatch75"
 license = "MIT"
@@ -2447,8 +2447,8 @@ tags = ["bar", "desktop", "panel", "service", "animation", "media", "network", "
 [[plugin]]
 id = "prponkshe/umbriel-displays"
 name = "Umbriel Displays"
-version = "1.0.0"
-updated_at = 1789086907
+version = "1.0.1"
+updated_at = 1790485959
 added_at = 1789086907
 author = "prponkshe"
 license = "MIT"
@@ -2473,8 +2473,8 @@ tags = ["ai", "development", "bar", "panel", "service", "productivity"]
 [[plugin]]
 id = "muhammadessam/umbriel-monitor-control"
 name = "Umbriel Monitor Control"
-version = "0.3.0"
-updated_at = 1790165665
+version = "0.3.1"
+updated_at = 1790485981
 added_at = 1789146573
 author = "muhammadessam"
 license = "MIT"
@@ -2486,8 +2486,8 @@ tags = ["bar", "panel", "service", "shortcut", "system", "utility", "hardware", 
 [[plugin]]
 id = "grassyloki/kwallet-secrets"
 name = "KWallet Secrets"
-version = "1.1.0"
-updated_at = 1789149522
+version = "1.1.3"
+updated_at = 1790467616
 added_at = 1789149522
 author = "grassyloki"
 license = "MIT"
@@ -2934,8 +2934,8 @@ rev = "9ec5a4813f22f04313fae5f1707e5d239b812973"
 [[plugin]]
 id = "fel/quill"
 name = "Quill"
-version = "1.0.0"
-updated_at = 1790164567
+version = "1.1.0"
+updated_at = 1790468164
 added_at = 1790164567
 author = "fel"
 license = "MIT"
@@ -3078,12 +3078,38 @@ tags = ["bar", "indicator", "niri", "productivity", "system"]
 [[plugin]]
 id = "etrigan63/rum-updates"
 name = "RUM Updates"
-version = "0.1.5"
-updated_at = 1790426889
+version = "0.1.6"
+updated_at = 1790467331
 added_at = 1790381127
 author = "etrigan63"
 license = "MIT"
-icon = "download"
+icon = "package"
 description = "Monitor and manage RakuOS updates with rum."
 plugin_api = 3
 tags = ["system", "utility"]
+
+[[plugin]]
+id = "gamaraan/mx-control"
+name = "MX Control"
+version = "0.2.1"
+updated_at = 1790468021
+added_at = 1790468021
+author = "gamaraan"
+license = "GPL-2.0-or-later"
+icon = "mouse"
+description = "Battery, DPI, SmartShift, buttons, Easy-Switch, profiles and gesture shortcuts for Logitech MX devices via Solaar."
+plugin_api = 24
+tags = ["hardware", "bar", "panel", "service", "indicator", "hyprland"]
+
+[[plugin]]
+id = "omertahaoztop/vikunja"
+name = "Vikunja"
+version = "1.0.0"
+updated_at = 1790468776
+added_at = 1790468776
+author = "omertahaoztop"
+license = "MIT"
+icon = "checkbox"
+description = "Today's and overdue Vikunja tasks, with quick add, complete and postpone."
+plugin_api = 24
+tags = ["bar", "panel", "service", "launcher", "productivity"]
